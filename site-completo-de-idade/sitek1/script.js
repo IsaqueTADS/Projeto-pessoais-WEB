@@ -1,5 +1,5 @@
 function reloadpag() {
-  location.reload;
+  res.innerHTML = "";
 }
 var username = document.getElementById("user");
 var password = document.querySelector("input#pass");
@@ -10,5 +10,7 @@ function login() {
     res.innerHTML = "Nome de usuario invalido";
   } else if (password.value.length == 0) {
     res.innerHTML = "Senha invalida";
+  } else {
+    location.href = "pagina2/main.html";
   }
 }
