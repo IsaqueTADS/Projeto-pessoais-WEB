@@ -1,0 +1,25 @@
+body:hover {
+  
+  background: blur(30);
+  text-decoration: underline rgba(244, 241, 241, 0.694);
+  
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+body h1  {
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+body p {
+    color: white;
+    text-align: center;
+    flex-direction: colum;
+}
